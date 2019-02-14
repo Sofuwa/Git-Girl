@@ -1,0 +1,11 @@
+QUESTION
+Let’s say I give you a list saved in a variable: a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. 
+Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.(List comprehension)
+
+ANSWERS
+number_a = [100, 210, 750, 420, 55, 970, 300, 63, 79]
+number_b = []
+for num in number_a:
+  number_b.append(num = 50)
+number_b.sort()
+print (number_b)
