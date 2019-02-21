@@ -4,7 +4,7 @@ that they will turn 100 years old. Ask the user for a number. Depending on wheth
 appropriate message to the user.  How does an even / odd number react differently when divided by 2?
 
 ANSWERS
-name = imput("What is your name?: ")
+name = input("What is your name?: ")
 age = input("What is your age?: ")
 DOB = 2019 - int(age)
 year = DOB + 100
