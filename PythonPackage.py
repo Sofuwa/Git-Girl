@@ -8,6 +8,12 @@ np_revenue = np.array(revenue)
 np_expenses = np.array(expenses)
 profit = np_revenue - np_expenses
 print ("Profit = %s" % (profit))
-Profit = [  25  191  738  797  -60  -30 -214  394 -594  -23    7 -226]
 Fin_status = dict(zip(months,profit))
 print (Fin_status)
+Fin_status = pd.Series(Fin_status)
+print (Fin_status)
+plt.plot(Fin_status)
+plt.xlabel("Months")
+plt.ylabel("Profit or loss")
+plt.title("Monthly Profit")
+plt.show()
